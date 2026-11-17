@@ -1,0 +1,28 @@
+FINAL MODEL PERFORMANCE
+=================================================================
+Accuracy: 0.7856
+Macro F1 Score: 0.3787
+Weighted F1 Score: 0.7813
+
+CLASSIFICATION REPORT
+              precision    recall  f1-score   support
+
+     blocker       0.18      0.38      0.24       119
+    critical       0.65      0.73      0.69       891
+       major       0.21      0.14      0.17       686
+       minor       0.12      0.08      0.10       469
+      normal       0.88      0.88      0.88     10826
+     trivial       0.18      0.23      0.20       312
+
+    accuracy                           0.79     13303
+   macro avg       0.37      0.41      0.38     13303
+weighted avg       0.78      0.79      0.78     13303
+
+CONFUSION MATRIX
+          blocker  critical  major  minor  normal  trivial
+blocker        45        13     13      3      44        1
+critical       20       649     28      6     183        5
+major          22        36     96     15     506       11
+minor           3         1     13     38     375       39
+normal        165       304    313    219    9551      274
+trivial         1         0      3     24     212       72

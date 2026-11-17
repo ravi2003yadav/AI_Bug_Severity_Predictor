@@ -1,0 +1,193 @@
+Project,Bug ID,Severity Label,Resolution Status,Short Description
+Thunderbird,323373,normal,FIXED,Migrating Netscape 7.2 e-mail accounts fails to import all SMTP servers
+Platform,323373,minor,FIXED,StyledTextRenderer.hasLink() uses invalid indexing if no ranges array is defined
+Core,323378,critical,FIXED,"Accessing data:;base64, produces a crash for some architectures"
+Platform,323378,normal,FIXED,"[Net] Native bypass for ""*.eclipse.org"" does not work"
+Platform,323628,normal,FIXED,Files lost from CVS when replacing with nonexistent version
+Core,323628,critical,FIXED,Crash [@ PresShell::HandleDOMEventWithTarget] when closing submenu of popup with ::after css rule
+Core,323708,normal,FIXED,Recalculation of ComputeFreshnessLife wrong after performing If-Modified-Since / If-None-Match request
+Platform,323708,major,FIXED,Previously maximized view can get into a state where it can no longer be maximized
+Platform,323833,normal,FIXED,Files in file cache are marked as immutable and are not deleted on restart
+Core,323833,major,FIXED,"JS Error: Uncaught Exception using ""for (key in array)"" statements"
+CDT,324062,normal,FIXED,Headless Builder: Need ability to pass additional tool options
+Thunderbird,324062,minor,FIXED,Password manager list box does not resize vertically with dialog
+Core,324072,major,FIXED,Paper size and printer selection in printdialog are reflected incorrectly in preferences
+JDT,324072,minor,FIXED,"Debug view ""Terminate/Disconnect All"" doesn't work"
+Platform,324223,critical,FIXED,Security Vulnerabilities in Eclipse Help
+Core,324223,normal,FIXED,Docshell should push null JSContext before calling window.open()
+JDT,324285,major,FIXED,[JUnit] RemoteTestRunnerClient destroys line delimiters
+Core,324285,normal,FIXED,Improve nsISHistoryListener.idl documentation
+JDT,324857,normal,FIXED,Add help for Open from Clipboard action
+Core,324857,major,FIXED,MathML all screwed up in Cairo builds
+Core,325150,critical,FIXED,OOM crashes in nsPresShell.cpp
+CDT,325150,normal,FIXED,"edc - ARM - disassembly - fix for ""duplicate line"" and ""missing line"" bugs"
+Firefox,325161,normal,FIXED,support URI property on all result nodes
+JDT,325161,major,FIXED,NPE in Java breakpoint properties page with JavaStratumLineBreakpoint
+Core,325221,minor,FIXED,Caret (text cursor) shows through XUL label
+JDT,325221,normal,FIXED,[preferences]  Add examples  for new FORMATTER_INSERT_NEW_LINE_AFTER_ANNOTATION_ON_* constants
+Firefox,325224,normal,FIXED,about:licence fragment hyperlinks don't work
+Platform,325224,critical,FIXED,[Backport] NatureManager is NOT threadsafe causing incorrect responses to isNatureEnabled() (and others)
+JDT,325321,normal,FIXED,[compiler] Synthetic constructors for non-static inner classes can exceed 255 parameters -> ClassFormatError
+Core,325321,critical,FIXED,crash if I click on previously by javascript deleted <option> in <select>-box
+Core,325336,critical,FIXED,implement better window/sheet support in Cocoa widgets
+JDT,325336,blocker,FIXED,Type Hierarchies don't show interfaces any more
+Platform,325386,normal,FIXED,API descriptions bundle for all JREs are gone from the update site
+Core,325386,critical,FIXED,Crash when trying to create an htmleditor instance
+Core,325425,critical,FIXED,jsxml.c: Bad assumptions about js_ConstructObject
+Platform,325425,normal,FIXED,natureEnablements is unnecessary synchronized (Nature Manager)
+Platform,326085,normal,FIXED,Last lines of lengthy context-sensitive help garbled
+Core,326085,critical,FIXED,"Firefox 1.5.0.1 (and 1.5.0) hangs when I visit URL, even in safe mode"
+Core,326672,normal,FIXED,"When loading an image, the unloaded part of it is black"
+Platform,326672,minor,FIXED,"org.eclipse.swt.graphics.TextStyle.hashCode() contains ""hash ^= hash;"""
+Platform,327425,normal,FIXED,[backport] New option to not use capped algorithm misses documentation
+Core,327425,minor,FIXED,"don't compile LoadNativeMenus if we don't need to in nsWebShellWindow, cleanup"
+Firefox,327560,normal,FIXED,History service keeps observer service references
+Platform,327560,minor,FIXED,Failed to create Citrix Client v12
+Platform,327788,normal,FIXED,[DynamicGUI] UIExtensionTracker calling Display.syncExec() on disposed Display
+Thunderbird,327788,major,FIXED,setting a message filter on news account does not filter incoming messages to newsgroup folders
+Platform,328077,normal,FIXED,Debug view added to wrong perspective while user prompted to switch perspectives
+Core,328077,major,FIXED,crash on attempt to drag image from a page
+Core,328395,critical,FIXED,Crash in [@ nsIPresShell::GetPresContext()] closing Print Preview window after automatic selection testcase.
+Platform,328395,minor,FIXED,The Document 's Tree Line Tracker breaks when part of a line delimiter is replaced
+Platform,328541,major,FIXED,'File Seach' feature - does not work the first time you run it
+Core,328541,normal,FIXED,iframe drawn to canvas doesn't show immediately preceding DOM changes
+Core,328643,major,FIXED,support non-ASCII font name for pref
+Platform,328643,normal,FIXED,Constructor for org.eclipse.help.base.remote.RemoteIC has incorrect variable assignment
+Platform,329004,minor,FIXED,"ScrolledForm, TableHeader wider than 100 %"
+Core,329004,normal,FIXED,Local (in-app-bundle) XULRunner framework finding broken
+Firefox,329130,major,FIXED,XML Parsing Error: undefined entity  while opening about: page
+JDT,329130,normal,FIXED,Properties file editor should not translate non-ISO-8859-1 characters if properties file has UTF-8 encoding
+Core,329165,normal,FIXED,nsHttpChannel.cpp:127: warning: array subscript has type ‘char’
+CDT,329165,major,FIXED,Formatter corrupts code
+Bugzilla,329196,blocker,FIXED,"Release/News Announcement for Bugzilla 2.20.2, 2.22, and 2.23.1"
+CDT,329196,normal,FIXED,Incorrect highlighting of strings with #defines inside
+Core,329335,critical,FIXED,"Crash [@ nsXULDocument::~nsXULDocument] involving <svg:svg datasources=""""> in XUL"
+Platform,329335,normal,FIXED,Concurrent access to file while decorating
+Firefox,329531,normal,FIXED,Toolbar/Menu Initialization Incorrectly Done
+CDT,329531,major,FIXED,[crossgcc]Crossgcc plugin fails to build a project
+JDT,329677,major,FIXED,[type hierarchy] view must honor package name abbreviation setting
+Core,329677,blocker,FIXED,Persist seems to let any page set any persist value
+CDT,329724,normal,FIXED,DSF-GDB launcher fails if there are newlines between command line arguments
+Firefox,329724,major,FIXED,understand our localization situation
+Core,329727,trivial,FIXED,Coverity doesn't like ReportError in jscntxt because it pretends reportp could be null
+JDT,329727,normal,FIXED,Invalid check in the isConstructor() method of the IMethod implementation.
+Platform,329751,normal,FIXED,Duplicate hotkeys appear in 'Appearance' Preferences dialog
+Core,329751,trivial,FIXED,Coverity doesn't think obj_eval should null check caller->pc
+Firefox,329795,normal,FIXED,Bookmark Properties dialog's folder selection inaccessible
+CDT,329795,minor,FIXED,"dereferencing iterator results in ""field could not be resolved"" error"
+Core,329836,normal,FIXED,"Changes to gradient xlink:href's aren't ""live"""
+Platform,329836,major,FIXED,EFS.ATTRIBUTE_IMMUTABLE is not set along with EFS.ATTRIBUTE_READ_ONLY any more
+Platform,330268,critical,FIXED,Display.post() logs out current session if no mouse button specified only on 10.6.4
+Core,330268,normal,FIXED,RTL characters typed into a textarea after a long unbreakable string don't appear on screen until scrolled
+Core,330373,major,FIXED,[regression] Duplicated text in certain bidi case with image
+Platform,330373,normal,FIXED,IllegalStateException: Workbench has not been created yet
+JDT,330588,normal,FIXED,Intellisense disappeared in the ide
+Bugzilla,330588,trivial,FIXED,missing newline in Search.pm
+Firefox,330842,normal,FIXED,"""ASSERT: Can't serialize: file doesn't exist!"" at startup"
+JDT,330842,major,FIXED,Content assist misses members
+Firefox,330941,trivial,FIXED,browser.search.defaulturl not removed from locale
+CDT,330941,normal,FIXED,Xlc error parser can't figure out that file name is in quotes
+JDT,331446,normal,FIXED,[1.4/1.5] Unexpected ambiguous error for 1.4 project
+Core,331446,critical,FIXED,"Crash [@ nsFrameManager::ReResolveStyleContext] involving columns, tables, positioning"
+Platform,331453,normal,FIXED,unicode nonprintable / zero width space completely bricks editors
+Core,331453,blocker,FIXED,Downloading and exe file reults in a truncated executable
+Core,331665,major,FIXED,Chrome Registry generates complete screwed up chrome.manifest files
+Platform,331665,normal,FIXED,Add UI for Bug 207510
+Platform,331676,normal,FIXED,Test failures on Cocoa in N20101201-2000
+Thunderbird,331676,critical,FIXED,Crash on search in threaded mode
+Platform,331707,normal,FIXED,[Webapp] Go button not showing in search pane using IE
+Firefox,331707,critical,FIXED,Build Broken in nsAnnotationService.cpp
+CDT,331783,normal,FIXED,"NLS: ""Clear"" button label in Makefile Project preferences truncated"
+Core,331783,minor,FIXED,nsContentHTTPStartup overrides preferences
+CDT,331786,normal,FIXED,Info section of Code Analysis preferences layout does not refresh properly
+Core,331786,critical,FIXED,WAY_TOO_MUCH_GC crash in regress-290499.js
+Core,332083,normal,FIXED,selectedIndex for xforms:select
+Platform,332083,major,FIXED,Invalid MouseHover event on MacOSX Cocoa
+Platform,332123,normal,FIXED,Get rid of warnings in 'org.eclipse.ui.examples.propertysheet'
+Core,332123,major,FIXED,nsLocalFileWin::AppendRelativeNativePath broken with multiple path components
+JDT,332271,minor,FIXED,[quick assist] Use ()+ icon for quick assists which add parentheses around expressions
+Firefox,332271,major,FIXED,One cause of wrong tab closure identified in tab closure handling
+Core,332389,normal,FIXED,nsLocalFile::GetParent() doen't return nsnull at top of volume
+Platform,332389,major,FIXED,Invalid memory access when using the new shell.getToolBar()
+Platform,333386,normal,FIXED,Inconsistent behavior of Combo#setItems() on MacOSX Cocoa
+Core,333386,critical,FIXED,[@ ns4xPluginStreamListener::OnFileAvailable]
+Core,333493,critical,FIXED,Hang with sub - display: table-cell and div - display: table-column
+Platform,333493,normal,FIXED,disposed widget exception when closing editor with Browser with Ctrl+F4
+Platform,333689,normal,FIXED,[About] About dialog text - needs to not cache system property values
+Core,333689,critical,FIXED,[@ nsCertTree::ToggleOpenState]
+Core,334463,critical,FIXED,"Variable ""cx"" tracked as NULL was passed to a function that dereferences it [@ ThrowJSException - nsJSObjWrapper::NP_SetProperty]"
+CDT,334463,normal,FIXED,[run control] Need a way to know if we are in non-stop mode
+CDT,334687,normal,FIXED,[tests] Exception thrown at the end of JUnit test session
+Core,334687,minor,FIXED,Possible null pointer dereference in nsPluginHostImpl.cpp
+Firefox,334756,normal,FIXED,make UA string for trunk releases not say Firefox
+Platform,334756,major,FIXED,"CVS Commit dialog commits comment ""<Click here to enter a commit comment>"""
+Platform,335030,trivial,FIXED,"Incorrect use of ""it's"" in documentation for 'allowLabelUpdate' in actionSets schema definition"
+Core,335030,normal,FIXED,CSS :hover property not obeyed by background images
+Core,335193,major,FIXED,URI fixup should not assume all NS_NewURI failures mean malformed URIs
+Platform,335193,normal,FIXED,NullPointerException raised by ModelContentProvider.cancelRestore
+Platform,335308,trivial,FIXED,[JFace] JavaDoc of ControlDecoration#setDescriptionText is wrong
+Firefox,335308,normal,FIXED,Make exported bookmarks.html readable by 1.5
+Core,335333,critical,FIXED,"Relative, remote images which have a Content-Base fail to display."
+JDT,335333,trivial,FIXED,Java > Debug preference page should have more keywords
+Firefox,335512,major,FIXED,Import Bookmarks from file is broken
+CDT,335512,normal,FIXED,Update XLC scanning discovery parser and marcos and include path import XML utility accessible scope.
+Platform,336379,blocker,FIXED,Snippet345 is using the wrong example text.
+Core,336379,normal,FIXED,Support destructuring assignment in JS1.7
+Firefox,336841,minor,FIXED,Removed unused Firefox preference alerts.height
+JDT,336841,normal,FIXED,"[package explorer] ""Show In"" doesn't work in Synchronize view for open .java file outside of classpath"
+Core,337040,critical,FIXED,document.close() deletes width document.write() written HTML if in that HTMl an iframe-element is included and designMode on the document to be written is on. relates to bug 334515
+CDT,337040,normal,FIXED,MethodDefinitionInsertLocationFinder2 does not find implementation file when no definition already present
+Bugzilla,337209,trivial,FIXED,Missing whitespaces in the 'fieldvalue_still_has_bugs' error message
+JDT,337209,normal,FIXED,[preferences][JUnit] 'Show newly launched test in all JUnit views' not stored
+Firefox,337292,minor,FIXED,"Since searchbox oval is a single hard-coded image, it breaks with the new searchbar flex behavior"
+Platform,337292,normal,FIXED,"[Intro] Using the CustomizableIntroPart, after having changed the welcome page's content by registryChanged, moving to standby state causes an ArrayIndexOutOfBoundsException"
+CDT,337701,minor,FIXED,FileContentHelper doesn't close streams
+Bugzilla,337701,normal,FIXED,012throwables.t doesn't recognize that certain errors are AUTH_ERROR codes
+JDT,337738,normal,FIXED,[1.7][content assist]Test CompletionParserTest#testEA_1 fails
+Firefox,337738,minor,FIXED,Discrepancy in searchbar width between branch and trunk
+Thunderbird,337964,major,FIXED,The Master Password dialog does not appear when changing account during message composing
+JDT,337964,normal,FIXED,[dom] code that would definitely cause NPE if executed
+Core,338028,normal,FIXED,Installing extensions accesses observer service from off-thread
+Platform,338028,major,FIXED,[Webapp][Security] UrlUtil.HtmlEncode() should encode more characters
+Platform,338255,normal,FIXED,No hyperlink anchor for section 7 and the appendix in readme_eclipse_3.6.2.html
+Core,338255,minor,FIXED,dom\src\base\nsglobalwindow.cpp(5485) : warning C4715: 'nsGlobalWindow::FireDelayedDOMEvents' : not all control paths return a value
+Bugzilla,338965,normal,FIXED,Add me to cc list feature is confusing
+Platform,338965,critical,FIXED,Deadlock/Hang on UI Thread
+Core,339022,blocker,FIXED,Assertion failure: !JS_IsExceptionPending(cx) on Startup for SeaMonkey XUL App Linux builds
+JDT,339022,normal,FIXED,ASTProviderTest fails and is not in CoreTests suite
+Platform,339080,major,FIXED,API tool errors in latest SWT
+Core,339080,normal,FIXED,"the xul calendar arrows look ""garbled"""
+Core,339091,trivial,FIXED,More JS strict warnings
+Platform,339091,normal,FIXED,upgrade to 3.7M6 Orbit build
+Platform,339129,normal,FIXED,Perspective reset actions are not consistent.
+Core,339129,critical,FIXED,Crash in [@ TableBackgroundData::IsVisible]
+Firefox,339481,normal,FIXED,"Selection ""jumps"" when choosing a microsummary"
+Platform,339481,blocker,FIXED,NegativeArraySizeException when trying to create Problems view
+Platform,339863,trivial,FIXED,"""Invalid member type qualification"" in PreferenceManager"
+Core,339863,normal,FIXED,Scriptable SVG interfaces inherit from non-scriptable interfaces
+Core,340016,normal,FIXED,Remove nsISVGMarkable interface
+Platform,340016,critical,FIXED,conflicting dependencies between jdt.ui and eclipse.platform
+Platform,340342,normal,FIXED,Tooltips for command
+Firefox,340342,major,FIXED,"when textarea is defocused, lines with spell-check marker or caret disappear (gmail)"
+Core,340799,minor,FIXED,Select form element does not scroll as you type if width style is set
+Platform,340799,normal,FIXED,WebKit on Windows crashes with IBM JRE
+Platform,341128,major,FIXED,Bidi3.4: Bidi strings are not displayed properly in Console view
+Core,341128,normal,FIXED,MinGW build bustage
+Core,341638,normal,FIXED,"Rationalise nsTextFrame, nsTextPathFrame and nsTSpanFrame"
+Platform,341638,trivial,FIXED,LaunchConfigurationsDialog#restoreExpansion() should not pass same element more than once
+JDT,342559,normal,FIXED,IllegalArgumentException on Javadoc reference completion
+Core,342559,critical,FIXED,Crash [@ BasicTableLayoutStrategy::AssignNonPctColumnWidths] with display: table-header-group; and display: table-row;
+Core,343340,minor,FIXED,mousemove no longer functions with very large rectangles
+JDT,343340,normal,FIXED,org.eclipse.jdt.apt.core needs to be released
+JDT,343475,minor,FIXED,[1.7] Compiler warning for invalid type inside switch needs to be improved
+Core,343475,major,FIXED,Bug 340107 broke UniversalBrowserRead (and maybe other) permissions
+Bugzilla,343752,critical,FIXED,order not properly validated
+CDT,343752,normal,FIXED,Restart no longer works with GDB >= 7.0
+Firefox,344642,normal,FIXED,[SessionStore] Add an API for Undo Close Window (and disable it by default)
+Platform,344642,blocker,FIXED,[Mac OS X] Cannot enable/disable breakpoint by clicking checkbox
+Platform,344883,normal,FIXED,EditorSelectionDialog#promptForExternalEditor() leaks an image
+Core,344883,critical,FIXED,print previewing url freezes bon echo (and minefield if you zoom too)
+CDT,344892,normal,FIXED,[remote][multi-process] Deadlock when trying to attach to more than one process on a remote target
+Core,344892,critical,FIXED,"<svg:text stroke-width=""50%""> causes crash [@ nsSVGUtils::CoordToFloat]"
+Core,344914,critical,FIXED,crash caused by GetImageData; buggy JSObject allocation
+Platform,344914,major,FIXED,API problems in 'org.eclipse.help.base'

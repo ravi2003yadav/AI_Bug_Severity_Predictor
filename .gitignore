@@ -1,0 +1,26 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Sensitive information
+.env
+.streamlit/secrets.toml
+
+# Dataset files (download separately)
+data/raw/
+data/processed/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+# Old experimental models
+models/*.pkl
